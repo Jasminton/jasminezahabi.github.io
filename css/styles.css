@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+.body {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #344b4b;
+  background-image: url(https://www.transparenttextures.com/patterns/argyle.png);
+  position: relative;
+}
+
+header {
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+
+.linebr {
+  width: 50%;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  border-top: 10px dotted #fff;
+  background-color: transparent;
+}
+
+.table1{
+  table-layout:auto;
+  width: 50%;
+  text-align:left;
+  margin-left: 35%;
+  
+}
+
+li {
+  padding: 100px;
+}
+
+.jasmine {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border-style: groove;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#profile {
+  margin: 15px;
+}
+
+.home {
+  float: left;
+  margin: 20px;
+}
+
+.figure {
+  height: 300px;
+  width: 350px;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+p {
+  line-height: 2;
+  font-size: 17px;
+  text-align: left;
+  margin: 30px;
+}
+
+/* contact me */
+.socials {
+  margin-top: 570px;
+}
+
+.copyright {
+  margin: 30px;
+}
