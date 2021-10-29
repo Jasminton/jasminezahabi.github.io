@@ -5,6 +5,11 @@
   color: white;
 }
 
+.dropdown-menu {
+  height: 120px;
+  width: 250px;
+}
+
 .body {
   text-align: center;
   position: -webkit-sticky;
@@ -20,25 +25,29 @@ header {
   font-size: larger;
 }
 
-
 .linebr {
   width: 50%;
-  margin-left: 350px;
-  margin-bottom: 100px;
-  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
   border-top: 10px dotted #fff;
   background-color: transparent;
 }
 
-.table1{
-  table-layout:auto;
+.p-4 {
+  text-align: left;
   width: 50%;
-  text-align:left;
-  margin-left: 35%;
-  
 }
 
-li {
+.table1 {
+  table-layout: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.nav-item {
   padding: 100px;
 }
 
@@ -63,10 +72,15 @@ li {
 .figure {
   height: 300px;
   width: 350px;
+  margin-bottom: 50px;
 }
 
 h2 {
   margin-top: 100px;
+}
+
+h4 {
+  padding: 60px;
 }
 
 p {
